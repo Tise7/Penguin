@@ -1,0 +1,446 @@
+<resources>
+    <string name="app_name">Penguin</string>
+
+    <string name="penguin_name">Name</string>
+
+    <string-array name="topics">
+        <item>Description</item>
+        <item>Lifestyle and Habitat</item>
+        <item>Diet</item>
+        <item>Size and Weight</item>
+        <item>Relationships</item>
+        <item>History and Lifespan</item>
+        <item>Breeding</item>
+        <item>Threats To Penguins</item>
+    </string-array>
+
+        <!-- Emperor Penguin Questions -->
+    <string name="question_emperor_1">What is the primary diet of Emperor Penguins?</string>
+        <string name="option_emperor_1a">Seals</string>
+        <string name="option_emperor_1b">Fish, squid, and krill</string>
+        <string name="option_emperor_1c">Algae</string>
+        <string name="option_emperor_1d">Seaweed</string>
+
+    <string name="question_emperor_2">Where do Emperor Penguins primarily live?</string>
+        <string name="option_emperor_2a">Australia</string>
+        <string name="option_emperor_2b">Antarctica</string>
+        <string name="option_emperor_2c">South America</string>
+        <string name="option_emperor_2d">Africa</string>
+
+    <string name="question_emperor_3">How long can Emperor Penguins hold their breath underwater?</string>
+        <string name="option_emperor_3a">5 minutes</string>
+        <string name="option_emperor_3b">10 minutes</string>
+        <string name="option_emperor_3c">20 minutes</string>
+        <string name="option_emperor_3d">30 minutes</string>
+
+    <string name="question_emperor_4">How tall can an Emperor Penguin grow?</string>
+        <string name="option_emperor_4a">2 feet</string>
+        <string name="option_emperor_4b">3 feet</string>
+        <string name="option_emperor_4c">4 feet</string>
+        <string name="option_emperor_4d">5 feet</string>
+
+    <string name="question_emperor_5">What is the main threat to Emperor Penguins?</string>
+        <string name="option_emperor_5a">Predators</string>
+        <string name="option_emperor_5b">Climate change</string>
+        <string name="option_emperor_5c">Overfishing</string>
+        <string name="option_emperor_5d">Pollution</string>
+
+        <!-- King Penguin Questions -->
+    <string name="question_king_1">What is the King Penguin\'s most distinctive feature?</string>
+        <string name="option_king_1a">Yellow crest</string>
+        <string name="option_king_1b">Orange patches on chest and head</string>
+        <string name="option_king_1c">Blue eyes</string>
+        <string name="option_king_1d">Long beak</string>
+
+    <string name="question_king_2">Where do King Penguins breed?</string>
+        <string name="option_king_2a">Sub-Antarctic islands</string>
+        <string name="option_king_2b">New Zealand</string>
+        <string name="option_king_2c">Madagascar</string>
+        <string name="option_king_2d">Greenland</string>
+
+    <string name="question_king_3">How long is the King Penguin\'s breeding cycle?</string>
+        <string name="option_king_3a">6 months</string>
+        <string name="option_king_3b">8 months</string>
+        <string name="option_king_3c">14 to 16 months</string>
+        <string name="option_king_3d">18 months</string>
+
+    <string name="question_king_4">What do King Penguins primarily eat?</string>
+        <string name="option_king_4a">Plankton</string>
+        <string name="option_king_4b">Small fish, squid, and krill</string>
+        <string name="option_king_4c">Seaweed</string>
+        <string name="option_king_4d">Insects</string>
+
+    <string name="question_king_5">What is the main threat to King Penguins?</string>
+        <string name="option_king_5a">Predators</string>
+        <string name="option_king_5b">Climate change</string>
+        <string name="option_king_5c">Deforestation</string>
+        <string name="option_king_5d">Urbanization</string>
+
+    <!-- Adelie Penguin Questions -->
+    <string name="question_adelie_1">What is a key feature of the Adelie Penguin\'s appearance?</string>
+        <string name="option_adelie_1a">Orange beak</string>
+        <string name="option_adelie_1b">White ring around the eyes</string>
+        <string name="option_adelie_1c">Blue feathers</string>
+        <string name="option_adelie_1d">Yellow crest</string>
+
+    <string name="question_adelie_2">What do Adelie Penguins primarily eat?</string>
+        <string name="option_adelie_2a">Fish</string>
+        <string name="option_adelie_2b">Krill</string>
+        <string name="option_adelie_2c">Seaweed</string>
+        <string name="option_adelie_2d">Plankton</string>
+
+    <string name="question_adelie_3">Where do Adelie Penguins build their nests?</string>
+        <string name="option_adelie_3a">Underwater caves</string>
+        <string name="option_adelie_3b">Trees</string>
+        <string name="option_adelie_3c">Stone nests on rocky outcrops</string>
+        <string name="option_adelie_3d">In burrows</string>
+
+    <string name="question_adelie_4">During which season do Adelie Penguins breed?</string>
+        <string name="option_adelie_4a">Spring</string>
+        <string name="option_adelie_4b">Summer</string>
+        <string name="option_adelie_4c">Autumn</string>
+        <string name="option_adelie_4d">Winter</string>
+
+    <string name="question_adelie_5">What is a major threat to Adelie Penguins?</string>
+        <string name="option_adelie_5a">Desertification</string>
+        <string name="option_adelie_5b">Climate change</string>
+        <string name="option_adelie_5c">Logging</string>
+        <string name="option_adelie_5d">Air pollution</string>
+
+    <!-- Chinstrap Penguin Questions -->
+    <string name="question_chinstrap_1">What is the most distinctive feature of the Chinstrap Penguin?</string>
+        <string name="option_chinstrap_1a">Yellow crest</string>
+        <string name="option_chinstrap_1b">Thin black line under the chin</string>
+        <string name="option_chinstrap_1c">Red beak</string>
+        <string name="option_chinstrap_1d">Blue eyes</string>
+
+    <string name="question_chinstrap_2">Where are Chinstrap Penguins commonly found?</string>
+        <string name="option_chinstrap_2a">Arctic</string>
+        <string name="option_chinstrap_2b">Antarctic Peninsula</string>
+        <string name="option_chinstrap_2c">Sahara Desert</string>
+        <string name="option_chinstrap_2d">Amazon Rainforest</string>
+
+    <string name="question_chinstrap_3">What do Chinstrap Penguins mainly eat?</string>
+        <string name="option_chinstrap_3a">Seaweed</string>
+        <string name="option_chinstrap_3b">Krill</string>
+        <string name="option_chinstrap_3c">Algae</string>
+        <string name="option_chinstrap_3d">Insects</string>
+
+    <string name="question_chinstrap_4">How do Chinstrap Penguins communicate?</string>
+        <string name="option_chinstrap_4a">Dancing</string>
+        <string name="option_chinstrap_4b">Loud, braying calls</string>
+        <string name="option_chinstrap_4c">Blinking</string>
+        <string name="option_chinstrap_4d">Tail wagging</string>
+
+    <string name="question_chinstrap_5">What is a significant threat to Chinstrap Penguins?</string>
+        <string name="option_chinstrap_5a">Overfishing</string>
+        <string name="option_chinstrap_5b">Air pollution</string>
+        <string name="option_chinstrap_5c">Deforestation</string>
+        <string name="option_chinstrap_5d">Desertification</string>
+
+    <!-- Gentoo Penguin Questions -->
+    <string name="question_gentoo_1">What color is the Gentoo Penguin\'s beak?</string>
+        <string name="option_gentoo_1a">Blue</string>
+        <string name="option_gentoo_1b">Red</string>
+        <string name="option_gentoo_1c">Orange</string>
+        <string name="option_gentoo_1d">Black</string>
+
+    <string name="question_gentoo_2">What is the Gentoo Penguin\'s primary diet?</string>
+        <string name="option_gentoo_2a">Fish, squid, and krill</string>
+        <string name="option_gentoo_2b">Insects</string>
+        <string name="option_gentoo_2c">Leaves</string>
+        <string name="option_gentoo_2d">Berries</string>
+
+    <string name="question_gentoo_3">Where do Gentoo Penguins prefer to live?</string>
+        <string name="option_gentoo_3a">Grasslands</string>
+        <string name="option_gentoo_3b">Ice-free coastal areas</string>
+        <string name="option_gentoo_3c">Deserts</string>
+        <string name="option_gentoo_3d">Forests</string>
+
+    <string name="question_gentoo_4">How fast can Gentoo Penguins swim?</string>
+        <string name="option_gentoo_4a">10 mph</string>
+        <string name="option_gentoo_4b">15 mph</string>
+        <string name="option_gentoo_4c">22 mph</string>
+        <string name="option_gentoo_4d">30 mph</string>
+
+    <string name="question_gentoo_5">What is a major threat to Gentoo Penguins?</string>
+        <string name="option_gentoo_5a">Hunting</string>
+        <string name="option_gentoo_5b">Climate change</string>
+        <string name="option_gentoo_5c">Deforestation</string>
+        <string name="option_gentoo_5d">Traffic</string>
+
+    <!-- Macaroni Penguin Questions -->
+    <string name="question_macaroni_1">What is the most distinctive feature of the Macaroni Penguin?</string>
+        <string name="option_macaroni_1a">Bright yellow-orange crests</string>
+        <string name="option_macaroni_1b">Green feathers</string>
+        <string name="option_macaroni_1c">Blue eyes</string>
+        <string name="option_macaroni_1d">Red beak</string>
+
+    <string name="question_macaroni_2">Where do Macaroni Penguins primarily live?</string>
+        <string name="option_macaroni_2a">Sub-Antarctic regions</string>
+        <string name="option_macaroni_2b">North Pole</string>
+        <string name="option_macaroni_2c">Sahara Desert</string>
+        <string name="option_macaroni_2d">Amazon Rainforest</string>
+
+    <string name="question_macaroni_3">What is the primary diet of Macaroni Penguins?</string>
+        <string name="option_macaroni_3a">Algae</string>
+        <string name="option_macaroni_3b">Krill</string>
+        <string name="option_macaroni_3c">Grass</string>
+        <string name="option_macaroni_3d">Insects</string>
+
+    <string name="question_macaroni_4">How long can Macaroni Penguins live in the wild?</string>
+        <string name="option_macaroni_4a">5–10 years</string>
+        <string name="option_macaroni_4b">15–20 years</string>
+        <string name="option_macaroni_4c">25–30 years</string>
+        <string name="option_macaroni_4d">35–40 years</string>
+
+    <string name="question_macaroni_5">What is a significant threat to Macaroni Penguins?</string>
+        <string name="option_macaroni_5a">Overfishing</string>
+        <string name="option_macaroni_5b">Air pollution</string>
+        <string name="option_macaroni_5c">Urbanization</string>
+        <string name="option_macaroni_5d">Deforestation</string>
+
+    <!-- RockhopperPenguin Questions -->
+    <string name="question_rockhopper_1">What is the defining characteristic of the Rockhopper Penguin?</string>
+        <string name="option_rockhopper_1a">Spiky yellow crests</string>
+        <string name="option_rockhopper_1b">Smooth blue feathers</string>
+        <string name="option_rockhopper_1c">Green eyes</string>
+        <string name="option_rockhopper_1d">Long tail</string>
+
+    <string name="question_rockhopper_2">Where are Rockhopper Penguins primarily found?</string>
+        <string name="option_rockhopper_2a">Arctic Circle</string>
+        <string name="option_rockhopper_2b">Sub-Antarctic islands</string>
+        <string name="option_rockhopper_2c">Sahara Desert</string>
+        <string name="option_rockhopper_2d">Great Plains</string>
+
+    <string name="question_rockhopper_3">What do Rockhopper Penguins mainly eat?</string>
+        <string name="option_rockhopper_3a">Seaweed</string>
+        <string name="option_rockhopper_3b">Krill, squid, and fish</string>
+        <string name="option_rockhopper_3c">Leaves</string>
+        <string name="option_rockhopper_3d">Flowers</string>
+
+    <string name="question_rockhopper_4">How do Rockhopper Penguins move around on land?</string>
+        <string name="option_rockhopper_4a">Flying</string>
+        <string name="option_rockhopper_4b">Hopping between rocks</string>
+        <string name="option_rockhopper_4c">Crawling</string>
+        <string name="option_rockhopper_4d">Sliding on their bellies</string>
+
+    <string name="question_rockhopper_5">What is a major threat to Rockhopper Penguins?</string>
+        <string name="option_rockhopper_5a">Overfishing</string>
+        <string name="option_rockhopper_5b">Air pollution</string>
+        <string name="option_rockhopper_5c">Deforestation</string>
+        <string name="option_rockhopper_5d">Urbanization</string>
+
+    <!-- Magellanic Penguin Questions -->
+    <string name="question_magellanic_1">What is the primary habitat of Magellanic Penguins?</string>
+        <string name="option_magellanic_1a">Coastal regions of South America</string>
+        <string name="option_magellanic_1b">Arctic tundra</string>
+        <string name="option_magellanic_1c">Sahara Desert</string>
+        <string name="option_magellanic_1d">Amazon Rainforest</string>
+
+    <string name="question_magellanic_2">What is a distinctive feature of Magellanic Penguins?</string>
+        <string name="option_magellanic_2a">Two black bands across the chest</string>
+        <string name="option_magellanic_2b">Red feathers</string>
+        <string name="option_magellanic_2c">Long beak</string>
+        <string name="option_magellanic_2d">Yellow eyes</string>
+
+    <string name="question_magellanic_3">What do Magellanic Penguins primarily eat?</string>
+        <string name="option_magellanic_3a">Fish, squid, and crustaceans</string>
+        <string name="option_magellanic_3b">Leaves</string>
+        <string name="option_magellanic_3c">Seeds</string>
+        <string name="option_magellanic_3d">Insects</string>
+
+    <string name="question_magellanic_4">Where do Magellanic Penguins often nest?</string>
+        <string name="option_magellanic_4a">In trees</string>
+        <string name="option_magellanic_4b">In burrows or under vegetation</string>
+        <string name="option_magellanic_4c">Underwater</string>
+        <string name="option_magellanic_4d">On cliffs</string>
+
+    <string name="question_magellanic_5">What is a major threat to Magellanic Penguins?</string>
+        <string name="option_magellanic_5a">Oil pollution</string>
+        <string name="option_magellanic_5b">Desertification</string>
+        <string name="option_magellanic_5c">Logging</string>
+        <string name="option_magellanic_5d">Air pollution</string>
+
+    <!-- Humboldt Penguin Questions -->
+    <string name="question_humboldt_1">Where are Humboldt Penguins primarily found?</string>
+        <string name="option_humboldt_1a">Coastal regions of Chile and Peru</string>
+        <string name="option_humboldt_1b">North Pole</string>
+        <string name="option_humboldt_1c">Sahara Desert</string>
+        <string name="option_humboldt_1d">Great Plains</string>
+
+    <string name="question_humboldt_2">What is a distinctive feature of Humboldt Penguins?</string>
+        <string name="option_humboldt_2a">Black band across their chest</string>
+        <string name="option_humboldt_2b">Yellow feathers</string>
+        <string name="option_humboldt_2c">Blue eyes</string>
+        <string name="option_humboldt_2d">Long tail</string>
+
+    <string name="question_humboldt_3">What do Humboldt Penguins primarily eat?</string>
+        <string name="option_humboldt_3a">Fish, squid, and crustaceans</string>
+        <string name="option_humboldt_3b">Grass</string>
+        <string name="option_humboldt_3c">Flowers</string>
+        <string name="option_humboldt_3d">Seeds</string>
+
+    <string name="question_humboldt_4">Where do Humboldt Penguins often nest?</string>
+        <string name="option_humboldt_4a">In caves or burrows</string>
+        <string name="option_humboldt_4b">On treetops</string>
+        <string name="option_humboldt_4c">In open fields</string>
+        <string name="option_humboldt_4d">On icebergs</string>
+
+    <string name="question_humboldt_5">What is a significant threat to Humboldt Penguins?</string>
+        <string name="option_humboldt_5a">Overfishing</string>
+        <string name="option_humboldt_5b">Air pollution</string>
+        <string name="option_humboldt_5c">Desertification</string>
+        <string name="option_humboldt_5d">Logging</string>
+
+    <!-- Little Blue Penguin Questions -->
+    <string name="question_little_blue_1">What is the Little Blue Penguin\'s most distinctive feature?</string>
+        <string name="option_little_blue_1a">Blue-grey plumage</string>
+        <string name="option_little_blue_1b">Yellow eyes</string>
+        <string name="option_little_blue_1c">Red beak</string>
+        <string name="option_little_blue_1d">Long tail</string>
+
+    <string name="question_little_blue_2">Where do Little Blue Penguins primarily live?</string>
+        <string name="option_little_blue_2a">Coastal regions of Australia and New Zealand</string>
+        <string name="option_little_blue_2b">Arctic tundra</string>
+        <string name="option_little_blue_2c">Sahara Desert</string>
+        <string name="option_little_blue_2d">Great Plains</string>
+
+    <string name="question_little_blue_3">What do Little Blue Penguins mainly eat?</string>
+        <string name="option_little_blue_3a">Small fish, squid, and crustaceans</string>
+        <string name="option_little_blue_3b">Leaves</string>
+        <string name="option_little_blue_3c">Seeds</string>
+        <string name="option_little_blue_3d">Flowers</string>
+
+        <string name="question_little_blue_4">When are Little Blue Penguins most active?</string>
+        <string name="option_little_blue_4a">During the day</string>
+        <string name="option_little_blue_4b">At night</string>
+        <string name="option_little_blue_4c">During the afternoon</string>
+        <string name="option_little_blue_4d">At dawn</string>
+
+    <string name="question_little_blue_5">What is a major threat to Little Blue Penguins?</string>
+        <string name="option_little_blue_5a">Predation by introduced species </string>
+        <string name="option_little_blue_5b">Air pollution</string>
+        <string name="option_little_blue_5c">Deforestation</string>
+        <string name="option_little_blue_5d">Logging</string>
+
+
+
+    <string name="penguin_1_name">Emperor Penguin (Aptenodytes forsteri)</string>
+    <string name="penguin_1_description">The Emperor Penguin is the largest of all penguin species, reaching up to 48 inches (122 cm) in height and weighing between 50 to 100 pounds (22–45 kg). Native to Antarctica, they are adapted to extreme cold, with their thick layers of blubber and feathers that provide insulation against freezing temperatures.</string>
+    <string name="penguin_1_lifestyle_and_hab1itat">Emperor Penguins are primarily found on the Antarctic ice and in the surrounding cold waters. They are exceptional divers, reaching depths of over 1,800 feet (550 meters) and holding their breath for more than 20 minutes. Their lifestyle revolves around the harsh Antarctic climate, where they spend much of their life at sea, returning to the ice only to breed.</string>
+    <string name="penguin_1_relationships">These penguins form large, tightly-knit colonies that provide protection against predators and extreme weather. They are known for their deep bonds, especially between mating pairs and their chicks. Males are particularly dedicated, incubating the single egg on their feet under a brood pouch for about two months without eating.</string>
+    <string name="penguin_1_history_and_lifespan">Emperor Penguins have fascinated explorers and scientists since their discovery. They can live up to 20 years in the wild, although many do not survive past infancy due to the harsh environment and predation.</string>
+    <string name="penguin_1_diet" >Their diet mainly consists of fish, squid, and krill. They are skilled hunters, using their streamlined bodies to catch prey during deep dives.</string>
+    <string name="penguin_1_Breeding">Breeding occurs during the harsh Antarctic winter. After laying a single egg, the female transfers it to the male and heads to the sea to feed. The male then endures the brutal winter, fasting and incubating the egg until it hatches. The chick is dependent on its parents for warmth and food until it can fend for itself.</string>
+    <string name="penguin_1_size_and_weight">Emperor Penguins are the largest penguin species, standing nearly 4 feet tall and weighing up to 100 pounds</string>
+    <string name="threats_to_penguin_1">Climate change poses the most significant threat to Emperor Penguins, as melting ice reduces their breeding grounds and affects their food supply. Overfishing and ocean pollution also threaten their survival.</string>
+
+    <string name="penguin_2_name">King Penguin (Aptenodytes patagonicus) </string>
+    <string name="penguin_2_description">The King Penguin is the second–largest penguin species, reaching about 35 inches (90 cm) in height and weighing between 24 to 35 pounds (11–16 kg). Known for their striking appearance, King Penguins have vibrant orange patches on their heads and chests, contrasting sharply with their sleek black and white bodies. </string>
+    <string name="penguin_2_lifestyle_and_hab1itat">King Penguins inhabit sub-Antarctic islands and cold, northern regions of Antarctica. They are known for their long-distance foraging trips, often covering hundreds of miles in search of food. Unlike the Emperor Penguin, King Penguins do not face the extreme cold of the Antarctic winter, but they are still well-adapted to their chilly environment. </string>
+    <string name="penguin_2_relationships">These penguins form large colonies, sometimes numbering in the hundreds of thousands. They are social birds, engaging in complex vocalizations and displays to communicate with one another. King Penguins are monogamous during the breeding season, with pairs often staying together for multiple years. </string>
+    <string name="penguin_2_history_and_lifespan">King Penguins have been studied extensively, with their unique breeding cycle attracting significant interest. They can live up to 25 years in the wild, although many succumb to predators or food scarcity. </string>
+    <string name="penguin_2_diet" >Their diet primarily consists of small fish, particularly lanternfish, as well as squid and krill. They are proficient hunters, diving to depths of over 1,000 feet (300 meters) and remaining underwater for several minutes. </string>
+    <string name="penguin_2_Breeding">King Penguins have a prolonged breeding cycle, lasting about 14 to 16 months. They lay a single egg, which both parents take turns incubating. The chick takes about 10 to 13 months to fledge, meaning that King Penguins only breed twice every three years. </string>
+    <string name="penguin_2_size_and_weight">These penguins are sizable, standing about 3 feet tall and weighing around 30 pounds. </string>
+    <string name="threats_to_penguin_2">King Penguins face threats from climate change, which affects their food supply and breeding grounds. Overfishing and pollution also pose significant risks to their populations. </string>
+
+    <string name="penguin_3_name">Adelie Penguin (Pygoscelis adeliae) </string>
+    <string name="penguin_3_description">The Adelie Penguin is a small but robust species, standing about 28 inches (70 cm) tall and weighing between 8 to 12 pounds (3.6–5.5 kg). They are easily recognizable by their classic black and white plumage and distinctive white ring around their eyes. </string>
+    <string name="penguin_3_lifestyle_and_habitat">Adelie Penguins are true Antarctic inhabitants, living on the continent\'s ice and surrounding islands. They are highly social birds, often found in large colonies. These penguins are strong swimmers, capable of covering vast distances in search of food. </string>
+    <string name="penguin_3_relationships">Adelie Penguins form monogamous pairs during the breeding season, with both parents sharing the responsibilities of incubating eggs and feeding chicks. They communicate using a variety of calls and visual displays, maintaining close relationships within their colonies. </string>
+    <string name="penguin_3_history_and_lifespan">Adelie Penguins have a rich history, with explorers like James Clark Ross first documenting them in the 19th century. They can live up to 20 years, though many face threats from predation and harsh environmental conditions. </string>
+    <string name="penguin_3_diet" >Their diet mainly consists of krill, but they also eat fish and squid. Adelie Penguins are agile hunters, often seen porpoising through the water as they chase their prey. </string>
+    <string name="penguin_3_Breeding">Breeding occurs during the Antarctic summer, with Adelie Penguins returning to the same breeding grounds year after year. They build nests out of stones, where the female lays two eggs. Both parents take turns incubating the eggs and feeding the chicks once they hatch. </string>
+    <string name="penguin_3_size_and_weight">Adelie Penguins are relatively small, standing just over 2 feet tall and weighing around 10 pounds. </string>
+    <string name="threats_to_penguin_3">Climate change is a significant threat to Adelie Penguins, as it affects their food supply and breeding habitats. Melting ice reduces the availability of krill, their primary food source, while warmer temperatures can lead to flooding of nesting sites.</string>
+
+    <string name="penguin_4_name">Chinstrap Penguin (Pygoscelis antarcticus)</string>
+    <string name="penguin_4_description">Chinstrap Penguins are medium–sized, standing about 28 inches (72 cm) tall and weighing between 8 to 10 pounds (3.5–4.5 kg). They are named for the thin black line that runs under their chin, giving the appearance of a helmet strap. </string>
+    <string name="penguin_4_lifestyle_and_habitat">These penguins inhabit the rocky shores of the Antarctic Peninsula, South Shetland, and South Sandwich Islands. They are highly social, living in large colonies that can number in the millions. Chinstrap Penguins are excellent swimmers, spending much of their time at sea hunting for food. </string>
+    <string name="penguin_4_relationships">Chinstrap Penguins form strong monogamous bonds during the breeding season. Both parents are actively involved in raising their chicks, sharing the duties of incubating the eggs and feeding the young. They are known for their loud, braying calls, which help them communicate within their densely packed colonies.</string>
+    <string name="penguin_4_history_and_lifespan">Chinstrap Penguins have been a subject of interest for researchers studying Antarctic wildlife. They typically live around 15 to 20 years, although they face various threats that can reduce their lifespan. </string>
+    <string name="penguin_4_diet" >Their diet primarily consists of krill, but they also consume fish and other small marine organisms. Chinstrap Penguins are efficient hunters, often feeding in large groups that work together to corral prey. </string>
+    <string name="penguin_4_Breeding">Breeding takes place in the Antarctic summer. Chinstrap Penguins build circular nests out of stones, where the female lays two eggs. Both parents share the incubation duties and later feed the chicks by regurgitating partially digested food. </string>
+    <string name="penguin_4_size_and_weight">Chinstrap Penguins are medium-sized, with adults standing nearly 2.5 feet tall and weighing around 9 pounds. </string>
+    <string name="threats_to_penguin_4">Climate change, particularly warming temperatures and melting ice, poses a significant threat to Chinstrap Penguins by impacting their food supply and breeding grounds. Overfishing of krill and other prey species also puts pressure on their populations. </string>
+
+    <string name="penguin_5_name">Gentoo Penguin (Pygoscelis papua) </string>
+    <string name="penguin_5_description">Gentoo Penguins are medium–sized penguins, standing about 30 inches (76 cm) tall and weighing between 12 to 15 pounds (5.5–7 kg). They are easily identified by their bright orange-red bills and white patches above their eyes, giving them a unique, cheerful appearance. </string>
+    <string name="penguin_5_lifestyle_and_habitat">Gentoos inhabit sub-Antarctic islands and the Antarctic Peninsula. They prefer ice-free regions and are often found in grassy, coastal areas. These penguins are agile swimmers, known for their ability to reach speeds of up to 22 miles per hour (36 km/h) underwater. </string>
+    <string name="penguin_5_relationships">Gentoo Penguins are monogamous during the breeding season, forming strong pair bonds. They are highly social and communicate through a variety of vocalizations and body language. Within their colonies, they maintain close-knit relationships, often returning to the same mate and nesting site each year. </string>
+    <string name="penguin_5_history_and_lifespan">Gentoos have been well-documented since the early 19th century, with their populations closely monitored by researchers. They can live up to 15 to 20 years in the wild, though many face challenges that can shorten their lifespan. </string>
+    <string name="penguin_5_diet" >Their diet mainly consists of fish, particularly cod and sardines, as well as squid and krill. Gentoo Penguins are skilled hunters, often feeding close to shore but capable of diving to depths of 600 feet (180 meters). </string>
+    <string name="penguin_5_Breeding">Breeding takes place in large colonies during the Antarctic summer. Gentoos build nests from stones and lay two eggs, which are incubated by both parents. The chicks fledge after about 75 to 90 days, though they remain dependent on their parents for food for a while longer. </string>
+    <string name="penguin_5_size_and_weight">Gentoo Penguins are robust, standing around 2.5 feet tall and weighing up to 15 pounds. </string>
+    <string name="threats_to_penguin_5">Climate change, overfishing, and human disturbance pose significant threats to Gentoo Penguins. As their preferred ice-free breeding grounds shrink due to rising temperatures, their populations are at risk. Pollution, particularly plastic waste, also poses a danger to these penguins. </string>
+
+    <string name="penguin_6_name">Macaroni Penguin (Eudyptes chrysolophus) </string>
+    <string name="penguin_6_description">The Macaroni Penguin is a medium–sized species, standing about 28 inches (70 cm) tall and weighing between 10 to 12 pounds (4.5–5.5 kg). They are easily recognized by their bright yellow-orange crests, which contrast sharply with their black heads and white underbellies. </string>
+    <string name="penguin_6_lifestyle_and_habitat">Macaroni Penguins inhabit sub-Antarctic regions, including the South Georgia and South Sandwich Islands, as well as parts of the Antarctic Peninsula. They prefer rocky, coastal areas where they can nest in large colonies. These penguins are excellent swimmers and spend much of their time at sea hunting for food. </string>
+    <string name="penguin_6_relationships">Macaroni Penguins are highly social and form large, noisy colonies during the breeding season. They are monogamous, with pairs forming strong bonds that are reinforced each breeding season. Both parents share the responsibilities of incubating eggs and feeding the chicks. </string>
+    <string name="penguin_6_history_and_lifespan">Macaroni Penguins were named by British sailors who thought the penguins\' yellow crests resembled the flamboyant feathers worn by the "Macaroni" fashion trend of the 18th century. They can live up to 15 to 20 years in the wild, though they face numerous threats that can reduce their lifespan. </string>
+    <string name="penguin_6_diet" >Their diet primarily consists of krill, but they also eat fish and squid. Macaroni Penguins are efficient hunters, diving to depths of over 200 feet (60 meters) and spending several minutes underwater to catch their prey. </string>
+    <string name="penguin_6_Breeding">Breeding takes place during the austral summer, with Macaroni Penguins returning to the same breeding sites each year. They build simple nests from stones and lay two eggs, though typically only one chick survives. Both parents take turns incubating the eggs and later feeding the chick. </string>
+    <string name="penguin_6_size_and_weight">Macaroni Penguins are medium-sized, standing about 2.3 feet tall and weighing around 11 pounds. </string>
+    <string name="threats_to_penguin_6">Macaroni Penguins are threatened by climate change, which affects their food supply and breeding habitats. Overfishing, particularly of krill, and pollution also pose significant risks to their populations. </string>
+
+    <string name="penguin_7_name">Rockhopper Penguin (Eudyptes chrysocome) </string>
+    <string name="penguin_7_description">Rockhopper Penguins are among the smallest penguin species, standing about 20 inches (50 cm) tall and weighing between 5 to 6 pounds (2.3–2.7 kg). They are easily identified by their spiky yellow crests and red eyes, which give them a distinctive, fierce appearance. </string>
+    <string name="penguin_7_lifestyle_and_habitat">Rockhopper Penguins inhabit rocky, coastal regions of the sub-Antarctic islands, including the Falkland Islands and the southern tip of South America. They are known for their agility, often hopping between rocks with surprising speed and precision. These penguins spend much of their time at sea, returning to land only to breed. </string>
+    <string name="penguin_7_relationships">Rockhopper Penguins are social birds, living in large colonies that can number in the thousands. They are monogamous during the breeding season, with pairs often reuniting year after year. Their loud calls and energetic displays are essential for maintaining bonds and communicating within the bustling colony. </string>
+    <string name="penguin_7_history_and_lifespan">Rockhopper Penguins have been extensively studied due to their unique behaviors and widespread distribution. They typically live up to 10 years in the wild, though many fall victim to predation, food scarcity, and other environmental challenges. </string>
+    <string name="penguin_7_diet" >Their diet mainly consists of krill, squid, and small fish. Rockhopper Penguins are skilled hunters, diving to depths of over 300 feet (90 meters) to catch their prey. </string>
+    <string name="penguin_7_Breeding">Breeding occurs during the austral summer, with Rockhopper Penguins returning to the same nesting sites each year. They build nests from grass and stones, where the female lays two eggs. Typically, only one chick survives. Both parents share the duties of incubating the eggs and feeding the chick. </string>
+    <string name="penguin_7_size_and_weight">Rockhopper Penguins are small, standing about 1.5 feet tall and weighing around 5.5 pounds. </string>
+    <string name="threats_to_penguin_7">Climate change, overfishing, and pollution are significant threats to Rockhopper Penguins. Rising ocean temperatures and changing currents affect the availability of their prey, while pollution, particularly oil spills, poses a severe risk to their populations. </string>
+
+    <string name="penguin_8_name">Magellanic Penguin (Spheniscus magellanicus) </string>
+    <string name="penguin_8_description">The Magellanic Penguin is a medium–sized species, standing about 24 inches (61 cm) tall and weighing between 8 to 14 pounds (3.6–6.3 kg). They are characterized by their black backs, white underbellies, and distinctive two black bands across their chest. </string>
+    <string name="penguin_8_lifestyle_and_habitat">Magellanic Penguins inhabit the coastal regions of South America, particularly along the coasts of Argentina, Chile, and the Falkland Islands. They prefer temperate climates and are often found in burrows or under dense vegetation. These penguins are strong swimmers, capable of covering large distances in search of food. </string>
+    <string name="penguin_8_relationships">Magellanic Penguins are monogamous, forming strong pair bonds that often last for many years. They live in large colonies, where they communicate through a variety of vocalizations and displays. Both parents share the responsibilities of incubating eggs and feeding their chicks. </string>
+    <string name="penguin_8_history_and_lifespan">Named after the explorer Ferdinand Magellan, who first recorded them in 1520, these penguins have been well-documented by scientists and naturalists. They can live up to 25 years in the wild, although many face threats that can reduce their lifespan. </string>
+    <string name="penguin_8_diet" >Their diet primarily consists of fish, particularly anchovies and sardines, as well as squid and crustaceans. Magellanic Penguins are efficient hunters, often diving to depths of over 100 feet (30 meters) to catch their prey. </string>
+    <string name="penguin_8_Breeding">Breeding takes place in large colonies during the austral summer. Magellanic Penguins dig burrows or find shelter under dense vegetation, where the female lays two eggs. Both parents share the incubation duties and later feed the chicks by regurgitating food. </string>
+    <string name="penguin_8_size_and_weight">Magellanic Penguins are medium-sized, standing about 2 feet tall and weighing around 12 pounds. </string>
+    <string name="threats_to_penguin_8">Magellanic Penguins face threats from climate change, overfishing, and oil pollution. Warming ocean temperatures and changing currents affect their food supply, while oil spills and plastic pollution pose severe risks to their populations. </string>
+
+    <string name="penguin_9_name">Humboldt Penguin (Spheniscus humboldti) </string>
+    <string name="penguin_9_description">The Humboldt Penguin is a medium–sized species, standing about 26 inches (66 cm) tall and weighing between 8 to 13 pounds (3.6–5.9 kg). They are characterized by their black backs, white underbellies, and a distinctive black band that runs across their chest and down their sides. </string>
+    <string name="penguin_9_lifestyle_and_habitat">Humboldt Penguins inhabit the coastal regions of Chile and Peru, preferring temperate climates. They are often found in rocky coastal areas and islands, where they nest in burrows or caves. These penguins are strong swimmers, often hunting in the nutrient-rich waters of the Humboldt Current. </string>
+    <string name="penguin_9_relationships">Humboldt Penguins are monogamous, forming strong pair bonds that often last for many years. They are social birds, living in colonies where they communicate through a variety of vocalizations and displays. Both parents share the responsibilities of incubating eggs and feeding their chicks. </string>
+    <string name="penguin_9_history_and_lifespan">Named after the Humboldt Current, these penguins have been well-documented by scientists. They can live up to 20 years in the wild, although many face threats that can reduce their lifespan. </string>
+    <string name="penguin_9_diet" >Their diet primarily consists of fish, particularly anchovies and sardines, as well as squid and crustaceans. Humboldt Penguins are efficient hunters, often diving to depths of over 150 feet (45 meters) to catch their prey. </string>
+    <string name="penguin_9_Breeding">Breeding takes place in colonies during the austral spring and summer. Humboldt Penguins dig burrows or find shelter in caves, where the female lays two eggs. Both parents share the incubation duties and later feed the chicks by regurgitating food. </string>
+    <string name="penguin_9_size_and_weight">Humboldt Penguins are medium-sized, standing about 2.1 feet tall and weighing around 11 pounds. </string>
+    <string name="threats_to_penguin_9">Humboldt Penguins face threats from climate change, overfishing, and habitat destruction. The depletion of fish stocks, pollution, and the destruction of their nesting sites pose significant risks to their populations. </string>
+
+    <string name="penguin_10_name">Little Blue Penguin (Eudyptula minor)</string>
+    <string name="penguin_10_description">The Little Blue Penguin, also known as the Fairy Penguin, is the smallest penguin species, standing about 13 inches (33 cm) tall and weighing between 2 to 3 pounds (0.9–1.3 kg). They are easily recognized by their blue-grey plumage, which gives them a unique appearance among penguins. </string>
+    <string name="penguin_10_lifestyle_and_habitat">Little Blue Penguins inhabit the coastal regions of southern Australia, New Zealand, and surrounding islands. They prefer temperate climates and are often found nesting in burrows or under dense vegetation. These penguins are nocturnal, spending most of the day at sea and returning to their burrows at night. </string>
+    <string name="penguin_10_relationships">Little Blue Penguins are monogamous, forming strong pair bonds that often last for many years. They live in small colonies, where they communicate through a variety of vocalizations and displays. Both parents share the responsibilities of incubating eggs and feeding their chicks. </string>
+    <string name="penguin_10_history_and_lifespan">These penguins have been well-documented by scientists and are a popular attraction in many parts of Australia and New Zealand. They can live up to 6 to 7 years in the wild, although many face threats that can reduce their lifespan. </string>
+    <string name="penguin_10_diet" >Their diet primarily consists of small fish, particularly anchovies and sardines, as well as squid and crustaceans. Little Blue Penguins are efficient hunters, often diving to depths of over 65 feet (20 meters) to catch their prey. </string>
+    <string name="penguin_10_Breeding">Breeding takes place in colonies during the austral spring and summer. Little Blue Penguins dig burrows or find shelter under dense vegetation, where the female lays two eggs. Both parents share the incubation duties and later feed the chicks by regurgitating food. </string>
+    <string name="penguin_10_size_and_weight">Little Blue Penguins are the smallest penguin species, standing just over 1 foot tall and weighing around 2.5 pounds. </string>
+    <string name="threats_to_penguin_10">Little Blue Penguins face threats from climate change, habitat destruction, and predation by introduced species such as dogs and cats. Human activity, particularly coastal development and pollution, also poses significant risks to their populations. </string>
+
+
+    <string name="welcome">Welcome</string>
+    <string name="Penguins">Meet the Penguins</string>
+    <string name="Quiz">Quiz</string>
+    <string name="welcome_text">Venture into the Amazing World of Penguins</string>
+    <string name="back_button">Back</string>
+    <string name="bottom_navigation_home">Home</string>
+    <string name="Penguin_Detail">Details</string>
+    <string name="previous">Previous</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="quit">Quit</string>
+    <string name="result">Quiz Result</string>
+    <string name="retry">Retry</string>
+    <string name="TestYourPenguinKnowledge">Test your Knowledge</string>
+
+
+</resources>
