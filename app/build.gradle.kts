@@ -59,19 +59,19 @@ dependencies {
     implementation(libs.androidx.ui.text.google.fonts)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.material.icons.extended)
-    implementation("androidx.compose.material3:material3-window-size-class")
 
     // Group Lifecycle dependencies
-    implementation(libs.androidx.lifecycle.runtime.ktx) // You have this twice, removing the duplicate
+    implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.savedstate)
 
     implementation(libs.androidx.core.ktx)
+    implementation(libs.engage.core)
 
     // Testing dependencies
     testImplementation(libs.junit)
-    androidTestImplementation(platform(libs.androidx.compose.bom)) // Align Compose version for testing
+    androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.ui.test.junit4)

@@ -441,6 +441,13 @@
     <string name="result">Quiz Result</string>
     <string name="retry">Retry</string>
     <string name="TestYourPenguinKnowledge">Test your Knowledge</string>
+    <string name="Penguin_Catch">Penguin Catch</string>
+    <string name="Game">Game</string>
 
+    <string name="sad_penguin">Click to feed the Sad Penguin</string>
+    <string name="happy_penguin">Happy Penguin</string>
+    <string name="keep_feeding_the_penguin">Keep Feeding me</string>
+    <string name="more_please">More Please</string>
+    <string name="feed_the_penguin">Feed the Penguin</string>
 
 </resources>

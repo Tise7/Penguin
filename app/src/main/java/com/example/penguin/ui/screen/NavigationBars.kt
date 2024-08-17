@@ -2,6 +2,7 @@ package com.example.penguin.ui.screen
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Games
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -66,6 +67,7 @@ fun ExploreBottomAppBar(
     currentScreen: PenguinScreens,
     onHomeClick: () -> Unit,
     onQuizClick: () -> Unit,
+    onGameClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
 
@@ -114,6 +116,27 @@ fun ExploreBottomAppBar(
             ),
             selected = currentScreen == PenguinScreens.Quiz,
             onClick = onQuizClick
+        )
+        NavigationBarItem(
+            icon = {
+                Icon(
+                    imageVector = Icons.Default.Games,
+                    contentDescription = null
+                )
+
+            },
+            label = {
+                Text(
+                    text = stringResource(R.string.Game),
+                    style = MaterialTheme.typography.bodyLarge,
+                    color = MaterialTheme.colorScheme.inverseSurface,
+                )
+            },
+            colors = NavigationBarItemDefaults.colors(
+                indicatorColor = MaterialTheme.colorScheme.inversePrimary,
+            ),
+            selected = currentScreen == PenguinScreens.PenguinGame,
+            onClick = onGameClick
         )
     }
 }

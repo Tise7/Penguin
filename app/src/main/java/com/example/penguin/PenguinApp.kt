@@ -19,6 +19,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.penguin.ui.screen.ExploreBottomAppBar
 import com.example.penguin.ui.screen.ExploreTopAppBar
+import com.example.penguin.ui.screen.FeedThePenguinScreen
 import com.example.penguin.ui.screen.PenguinDetail
 import com.example.penguin.ui.screen.PenguinList
 import com.example.penguin.ui.screen.QuizApp
@@ -74,6 +75,13 @@ fun PenguinApp(
                             navigateUp = { }
                         )
                     }
+                    PenguinScreens.PenguinGame -> {
+                        ExploreTopAppBar(
+                            defaultTitle = stringResource(R.string.feed_the_penguin),
+                            canNavigateBack = false,
+                            navigateUp = { }
+                        )
+                    }
                     else -> {
                     }
                 }
@@ -93,6 +101,11 @@ fun PenguinApp(
                             popUpTo(PenguinScreens.Quiz.name) { inclusive = true }
                         }
                     },
+                    onGameClick = {
+                        navController.navigate(PenguinScreens.PenguinGame.name){
+                            popUpTo(PenguinScreens.PenguinGame.name) { inclusive = true }
+                        }
+                    }
                 )
             }
         },
@@ -134,6 +147,9 @@ fun PenguinApp(
             }
             composable(route = PenguinScreens.Quiz.name) {
                 QuizApp()
+            }
+            composable(route = PenguinScreens.PenguinGame.name) {
+                FeedThePenguinScreen()
             }
         }
     }
