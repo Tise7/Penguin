@@ -1,9 +1,10 @@
 
 
 **Steps to access the file**
-    `1. Download the latest version of Android Studio Application and lunch the application
-     2. From the Github link, click on Code. Download the Zip File or Open with the Github Desktop application and clone the repository
-     3. Open the downloaded file after unzipping in the Android Studio or click on "Open In Android Studio" after cloning the repository` 
+
+    1. Download the latest version of Android Studio Application and lunch the application
+    2. From the Github link, click on Code. Download the Zip File or Open with the Github Desktop application and clone the repository
+    3. Open the downloaded file after unzipping in the Android Studio or click on "Open In Android Studio" after cloning the repository
 
 
 **Steps to Access the application**
