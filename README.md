@@ -3,18 +3,19 @@
 **Steps to access the file**
 
     1. Download the latest version of Android Studio Application and lunch the application
-    2. From the Github link, click on Code. Download the Zip File or Open with the Github Desktop application and clone the repository
-    3. Open the downloaded file after unzipping in the Android Studio or click on "Open In Android Studio" after cloning the repository
+    2. From the Github link on your browser, click on Code. Either download the Zip File or Open with the Github Desktop application and clone the repository
+    3. Open the downloaded file after unzipping in the Android Studio or click on "Open In Android Studio" after cloning the repository in the Github Desktop application
 
 
 **Steps to Access the application**
 
      A. Running the App on an Emulator:
+
          Create an Android Virtual Device (AVD): If you don't have an existing AVD:
-         Go to Tools -> AVD Manager.
+         Go to Tools -> AVD/Device Manager.
          Click "Create Virtual Device".
-         Choose a device definition (e.g., Pixel 3) and click "Next".
-         Select a system image (Android version) and click "Next".
+         Choose a device definition (e.g., Pixel 7) and click "Next".
+         Select a system image (Android version) and click "Next". You will have to download a version preferably 34 or higher
          Configure AVD properties (name, orientation, etc.) and click "Finish".
          Select the AVD: In the toolbar, click the dropdown menu next to the green "Run" button and choose your AVD.
          Run the App: Click the green "Run" button (or press Shift + F10). Android Studio will build the app and launch it on the selected emulator.
@@ -37,5 +38,3 @@
              Ensure both devices are connected to the same wifi
              Enable "USB Debugging" on your phone
              Click on Debugging wifi to scan the QR code to pair the devices
-        
-        
