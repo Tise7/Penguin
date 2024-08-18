@@ -5,7 +5,7 @@ import com.example.penguin.R
 
 object QuestionsDataProvider {
 
-    fun getPenguinQuiz(): List<List<Question>> {
+    fun getPenguinQuiz(): List<List<Questions>> {
         return listOf(
             emperorPenguinQuestions,
             kingPenguinQuestions,
@@ -21,7 +21,7 @@ object QuestionsDataProvider {
     }
 
    private val emperorPenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_emperor_1 ,
             options = listOf(
                 R.string.option_emperor_1a,
@@ -31,7 +31,7 @@ object QuestionsDataProvider {
             ),
             correctAnswer =  R.string.option_emperor_1b
         ),
-        Question(
+        Questions(
             question =  R.string.question_emperor_2,
             options = listOf(
                 R.string.option_emperor_2a,
@@ -41,7 +41,7 @@ object QuestionsDataProvider {
             ),
             correctAnswer =  R.string.option_emperor_2b
         ),
-       Question(
+       Questions(
            question =  R.string.question_emperor_3,
            options = listOf(
                R.string.option_emperor_3a,
@@ -51,7 +51,7 @@ object QuestionsDataProvider {
            ),
            correctAnswer =  R.string.option_emperor_3c
        ),
-       Question(
+       Questions(
            question =  R.string.question_emperor_4,
            options = listOf(
                R.string.option_emperor_4a,
@@ -61,7 +61,7 @@ object QuestionsDataProvider {
            ),
            correctAnswer =  R.string.option_emperor_4c
        ),
-       Question(
+       Questions(
            question =  R.string.question_emperor_5,
            options = listOf(
                R.string.option_emperor_5a,
@@ -74,7 +74,7 @@ object QuestionsDataProvider {
    )
 
    private val kingPenguinQuestions = listOf(
-       Question(
+       Questions(
            question =  R.string.question_king_1,
            options = listOf(
                R.string.option_king_1a,
@@ -84,7 +84,7 @@ object QuestionsDataProvider {
            ),
            correctAnswer =  R.string.option_king_1b
        ),
-       Question(
+       Questions(
            question =  R.string.question_king_2,
            options = listOf(
                R.string.option_king_2a,
@@ -94,7 +94,7 @@ object QuestionsDataProvider {
            ),
            correctAnswer =  R.string.option_king_2a
        ),
-       Question(
+       Questions(
            question =  R.string.question_king_3,
            options = listOf(
                R.string.option_king_3a,
@@ -104,7 +104,7 @@ object QuestionsDataProvider {
                ),
            correctAnswer =  R.string.option_king_3c
        ),
-       Question(
+       Questions(
            question =  R.string.question_king_4,
            options = listOf(
                R.string.option_king_4a,
@@ -114,7 +114,7 @@ object QuestionsDataProvider {
                ),
            correctAnswer =  R.string.option_king_4b
        ),
-       Question(
+       Questions(
            question =  R.string.question_king_5,
            options = listOf(
                R.string.option_king_5a,
@@ -127,7 +127,7 @@ object QuestionsDataProvider {
    )
 
     private val adeliePenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_adelie_1,
             options = listOf(
                 R.string.option_adelie_1a,
@@ -137,7 +137,7 @@ object QuestionsDataProvider {
             ),
             correctAnswer =  R.string.option_adelie_1b
         ),
-        Question(
+        Questions(
             question =  R.string.question_adelie_2,
             options = listOf(
                 R.string.option_adelie_2a,
@@ -147,7 +147,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_adelie_2b
         ),
-        Question(
+        Questions(
             question =  R.string.question_adelie_3,
             options = listOf(
                 R.string.option_adelie_3a,
@@ -157,7 +157,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_adelie_3c
         ),
-        Question(
+        Questions(
             question =  R.string.question_adelie_4,
             options = listOf(
                 R.string.option_adelie_4a,
@@ -167,7 +167,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_adelie_4b
         ),
-        Question(
+        Questions(
             question =  R.string.question_adelie_5,
             options = listOf(
                 R.string.option_adelie_5a,
@@ -180,7 +180,7 @@ object QuestionsDataProvider {
     )
 
     private val chinstrapPenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_chinstrap_1,
             options = listOf(
                 R.string.option_chinstrap_1a,
@@ -190,7 +190,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_chinstrap_1b
         ),
-        Question(
+        Questions(
             question =  R.string.question_chinstrap_2,
             options = listOf(
                 R.string.option_chinstrap_2a,
@@ -200,7 +200,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_chinstrap_2b
         ),
-        Question(
+        Questions(
             question =  R.string.question_chinstrap_3,
             options = listOf(
                 R.string.option_chinstrap_3a,
@@ -210,7 +210,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_chinstrap_3b
         ),
-        Question(
+        Questions(
             question =  R.string.question_chinstrap_4,
             options = listOf(
                 R.string.option_chinstrap_4a,
@@ -220,7 +220,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_chinstrap_4b
         ),
-        Question(
+        Questions(
             question =  R.string.question_chinstrap_5,
             options = listOf(
                 R.string.option_chinstrap_5a,
@@ -233,7 +233,7 @@ object QuestionsDataProvider {
     )
 
     private val gentooPenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_gentoo_1,
             options = listOf(
                 R.string.option_gentoo_1a,
@@ -243,7 +243,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_gentoo_1c
         ),
-        Question(
+        Questions(
             question =  R.string.question_gentoo_2,
             options = listOf(
                 R.string.option_gentoo_2a,
@@ -253,7 +253,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_gentoo_2a
         ),
-        Question(
+        Questions(
             question =  R.string.question_gentoo_3,
             options = listOf(
                 R.string.option_gentoo_3a,
@@ -263,7 +263,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_gentoo_3b
         ),
-        Question(
+        Questions(
             question =  R.string.question_gentoo_4,
             options = listOf(
                 R.string.option_gentoo_4a,
@@ -273,7 +273,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_gentoo_4c
         ),
-        Question(
+        Questions(
             question =  R.string.question_gentoo_5,
             options = listOf(
                 R.string.option_gentoo_5a,
@@ -286,7 +286,7 @@ object QuestionsDataProvider {
     )
 
     private val macaroniPenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_macaroni_1,
             options = listOf(
                 R.string.option_macaroni_1a,
@@ -296,7 +296,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_macaroni_1a
         ),
-        Question(
+        Questions(
             question =  R.string.question_macaroni_2,
             options = listOf(
                 R.string.option_macaroni_2a,
@@ -306,7 +306,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_macaroni_2a
         ),
-        Question(
+        Questions(
             question = R.string.question_macaroni_3,
             options = listOf(
                 R.string.option_macaroni_3a,
@@ -316,7 +316,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_macaroni_3b
         ),
-        Question(
+        Questions(
             question =  R.string.question_macaroni_4,
             options = listOf(
                 R.string.option_macaroni_4a,
@@ -326,7 +326,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_macaroni_4b
         ),
-        Question(
+        Questions(
             question =  R.string.question_macaroni_5,
             options = listOf(
                 R.string.option_macaroni_5a,
@@ -339,7 +339,7 @@ object QuestionsDataProvider {
     )
 
     private val rockhopperPenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_rockhopper_1,
             options = listOf(
                 R.string.option_rockhopper_1a,
@@ -349,7 +349,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_rockhopper_1a
         ),
-        Question(
+        Questions(
             question =  R.string.question_rockhopper_2,
             options = listOf(
                 R.string.option_rockhopper_2a,
@@ -359,7 +359,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_rockhopper_2b
         ),
-        Question(
+        Questions(
             question =  R.string.question_rockhopper_3,
             options = listOf(
                 R.string.option_rockhopper_3a,
@@ -369,7 +369,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_rockhopper_3b
         ),
-        Question(
+        Questions(
             question =  R.string.question_rockhopper_4,
             options = listOf(
                 R.string.option_rockhopper_4a,
@@ -379,7 +379,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_rockhopper_4b
         ),
-        Question(
+        Questions(
             question =  R.string.question_rockhopper_5,
             options = listOf(
                 R.string.option_rockhopper_5a,
@@ -392,7 +392,7 @@ object QuestionsDataProvider {
     )
 
     private val magellanicPenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_magellanic_1,
             options = listOf(
                 R.string.option_magellanic_1a,
@@ -402,7 +402,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_magellanic_1a
         ),
-        Question(
+        Questions(
             question =  R.string.question_magellanic_2,
             options = listOf(
                 R.string.option_magellanic_2a,
@@ -412,7 +412,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_magellanic_2a
         ),
-        Question(
+        Questions(
             question =  R.string.question_magellanic_3,
             options = listOf(
                 R.string.option_magellanic_3a,
@@ -422,7 +422,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_magellanic_3a
         ),
-        Question(
+        Questions(
             question =  R.string.question_magellanic_4,
             options = listOf(
                 R.string.option_magellanic_4a,
@@ -432,7 +432,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_magellanic_4b
         ),
-        Question(
+        Questions(
             question =  R.string.question_magellanic_5,
             options = listOf(
                 R.string.option_magellanic_5a,
@@ -445,7 +445,7 @@ object QuestionsDataProvider {
     )
 
     private val humboldtPenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_humboldt_1,
             options = listOf(
                 R.string.option_humboldt_1a,
@@ -455,7 +455,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_humboldt_1a
         ),
-        Question(
+        Questions(
             question =  R.string.question_humboldt_2,
             options = listOf(
                 R.string.option_humboldt_2a,
@@ -465,7 +465,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_humboldt_2a
         ),
-        Question(
+        Questions(
             question =  R.string.question_humboldt_3,
             options = listOf(
                 R.string.option_humboldt_3a,
@@ -475,7 +475,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_humboldt_3a
         ),
-        Question(
+        Questions(
             question = R.string.question_humboldt_4,
             options = listOf(
                 R.string.option_humboldt_4a,
@@ -485,7 +485,7 @@ object QuestionsDataProvider {
                 ),
             correctAnswer =  R.string.option_humboldt_4a
         ),
-        Question(
+        Questions(
             question =  R.string.question_humboldt_5,
             options = listOf(
                 R.string.option_humboldt_5a,
@@ -498,7 +498,7 @@ object QuestionsDataProvider {
     )
 
     private val littleBluePenguinQuestions = listOf(
-        Question(
+        Questions(
             question =  R.string.question_little_blue_1,
             options = listOf(
                 R.string.option_little_blue_1a,
@@ -508,7 +508,7 @@ object QuestionsDataProvider {
             ),
             correctAnswer =  R.string.option_little_blue_1a
         ),
-        Question(
+        Questions(
             question = R.string.question_little_blue_2,
             options = listOf(
                 R.string.option_little_blue_2a,
@@ -518,7 +518,7 @@ object QuestionsDataProvider {
             ),
             correctAnswer =  R.string.option_little_blue_2a
         ),
-        Question(
+        Questions(
             question =  R.string.question_little_blue_3,
             options = listOf(
                 R.string.option_little_blue_3a,
@@ -528,7 +528,7 @@ object QuestionsDataProvider {
             ),
             correctAnswer =  R.string.option_little_blue_3a
         ),
-        Question(
+        Questions(
             question =  R.string.question_little_blue_4,
             options = listOf(
                 R.string.option_little_blue_4a,
@@ -538,7 +538,7 @@ object QuestionsDataProvider {
             ),
             correctAnswer =  R.string.option_little_blue_4b
         ),
-        Question(
+        Questions(
             question =  R.string.question_little_blue_5,
             options = listOf(
                 R.string.option_little_blue_5a,

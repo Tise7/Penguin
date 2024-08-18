@@ -1,10 +1,10 @@
 package com.example.penguin.ui.viewmodel
 
-import com.example.penguin.data.Question
+import com.example.penguin.data.Questions
 
 data class QuizUiState(
-    val questions: List<Question> = emptyList(),
-    val currentQuestion: Question? = null,
+    val questions: List<Questions> = emptyList(),
+    val currentQuestions: Questions? = null,
     val currentQuestionIndex: Int = 0,
     val currentPenguinIndex: Int = 0,
     val selectedOptionIndex: Int? = null,

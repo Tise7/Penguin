@@ -24,7 +24,7 @@ class QuizViewModel : ViewModel() {
         _uiState.update {
             it.copy(
                 questions = currentPenguinQuestions,
-                currentQuestion = currentPenguinQuestions.getOrNull(0),
+                currentQuestions = currentPenguinQuestions.getOrNull(0),
                 currentQuestionIndex = 0,
                 currentPenguinIndex = penguinIndex,
                 selectedOptionIndex = null,
@@ -35,7 +35,7 @@ class QuizViewModel : ViewModel() {
         }}
 
     fun onOptionSelected(selectedOptionIndex: Int) {
-        val currentQuestion = _uiState.value.currentQuestion ?: return
+        val currentQuestion = _uiState.value.currentQuestions ?: return
         val isCorrect = currentQuestion.options[selectedOptionIndex] == currentQuestion.correctAnswer
 
         _uiState.update {
@@ -53,7 +53,7 @@ class QuizViewModel : ViewModel() {
             _uiState.update {
                 it.copy(
                     currentQuestionIndex = currentQuestionIndex,
-                    currentQuestion = it.questions.getOrNull(currentQuestionIndex),
+                    currentQuestions = it.questions.getOrNull(currentQuestionIndex),
                     selectedOptionIndex = null,
                     isAnswerCorrect = null
                 )
@@ -67,7 +67,7 @@ class QuizViewModel : ViewModel() {
             _uiState.update {
                 it.copy(
                     currentQuestionIndex = currentQuestionIndex,
-                    currentQuestion = it.questions.getOrNull(currentQuestionIndex),
+                    currentQuestions = it.questions.getOrNull(currentQuestionIndex),
                     isAnswerCorrect = null
                 )
             }
@@ -94,7 +94,7 @@ class QuizViewModel : ViewModel() {
         _uiState.update {
             it.copy(
                 currentQuestionIndex = 0,
-                currentQuestion = it.questions.getOrNull(0)
+                currentQuestions = it.questions.getOrNull(0)
             )
         }
     }

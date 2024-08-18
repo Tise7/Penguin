@@ -19,7 +19,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.penguin.ui.screen.ExploreBottomAppBar
 import com.example.penguin.ui.screen.ExploreTopAppBar
-import com.example.penguin.ui.screen.FeedThePenguinScreen
+import com.example.penguin.ui.screen.GameApp
 import com.example.penguin.ui.screen.PenguinDetail
 import com.example.penguin.ui.screen.PenguinList
 import com.example.penguin.ui.screen.QuizApp
@@ -149,7 +149,7 @@ fun PenguinApp(
                 QuizApp()
             }
             composable(route = PenguinScreens.PenguinGame.name) {
-                FeedThePenguinScreen()
+                GameApp()
             }
         }
     }

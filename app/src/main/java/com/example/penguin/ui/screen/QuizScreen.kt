@@ -23,7 +23,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
@@ -33,10 +32,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.penguin.R
-import com.example.penguin.data.Question
+import com.example.penguin.data.Questions
 import com.example.penguin.ui.viewmodel.QuizUiState
 import com.example.penguin.ui.viewmodel.QuizViewModel
 
@@ -46,8 +44,6 @@ fun QuizApp() {
     val navController = rememberNavController()
     val viewModel: QuizViewModel = viewModel()
 
-    val backStackEntry by navController.currentBackStackEntryAsState()
-    val currentScreen = backStackEntry?.destination?.route ?: "penguin_selection"
 
     NavHost(
         navController = navController,
@@ -146,7 +142,7 @@ fun QuizScreen(
     navController: NavController
 ) {
     val uiState by viewModel.uiState.collectAsState()
-    val currentQuestion = uiState.currentQuestion
+    val currentQuestion = uiState.currentQuestions
 
     if (uiState.showResult) {
         ResultDialog(
@@ -156,7 +152,7 @@ fun QuizScreen(
         )
     } else if (currentQuestion != null) {
         QuestionContent(
-            currentQuestion = currentQuestion,
+            currentQuestions = currentQuestion,
             uiState = uiState,
             onOptionSelected = { index -> viewModel.onOptionSelected(index) },
             onPreviousButtonClicked = { viewModel.onPreviousButtonClicked() },
@@ -171,7 +167,7 @@ fun QuizScreen(
 @Composable
 fun QuestionContent(
     modifier: Modifier = Modifier,
-    currentQuestion: Question,
+    currentQuestions: Questions,
     uiState: QuizUiState,
     onOptionSelected: (Int) -> Unit,
     onPreviousButtonClicked: () -> Unit,
@@ -185,7 +181,7 @@ fun QuestionContent(
         LinearProgressIndicator(
                 progress = {
                    if (uiState.questions.isNotEmpty()) {
-                        (uiState.questions.indexOf(currentQuestion) + 1).toFloat() / uiState.questions.size
+                        (uiState.questions.indexOf(currentQuestions) + 1).toFloat() / uiState.questions.size
                     } else {
                         0f
                     }
@@ -195,7 +191,7 @@ fun QuestionContent(
 
         // Question text
         Text(
-            text = stringResource(id = currentQuestion.question),
+            text = stringResource(id = currentQuestions.question),
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier.padding(
                 horizontal = 16.dp,vertical = 16.dp
@@ -203,7 +199,7 @@ fun QuestionContent(
         )
 
         // Options
-        currentQuestion.options.forEachIndexed { index, option ->
+        currentQuestions.options.forEachIndexed { index, option ->
             Row(verticalAlignment = Alignment.CenterVertically) {
                 RadioButton(
                     selected = uiState.selectedOptionIndex == index,

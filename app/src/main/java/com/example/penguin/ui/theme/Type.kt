@@ -45,6 +45,14 @@ val Typography = Typography(
         lineHeight = 22.sp,
         letterSpacing = 0.sp
     ),
+    headlineLarge = TextStyle(
+        fontFamily = matemasie,
+        fontWeight = FontWeight.Normal,
+        fontSize = 32.sp,
+        lineHeight = 28.sp,
+        letterSpacing = 0.sp
+    ),
+
     bodyLarge = TextStyle(
         fontFamily = Gupter,
         fontWeight = FontWeight.Normal,

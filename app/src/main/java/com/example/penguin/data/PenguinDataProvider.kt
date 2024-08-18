@@ -4,8 +4,6 @@ import com.example.penguin.R
 
 object PenguinDataProvider {
 
-    val defaultPenguin: Penguin by lazy { getPenguinData()[0] }
-
     fun getPenguinData(): List<Penguin> {
         return listOf(
             penguin_1,

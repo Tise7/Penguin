@@ -12,9 +12,13 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -22,10 +26,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.penguin.R
 import com.example.penguin.data.Penguin
 
 @Composable
@@ -55,6 +61,40 @@ fun PenguinName(
         style = MaterialTheme.typography.titleLarge,
         modifier = modifier.fillMaxWidth()
     )
+}
+
+
+@Composable
+fun PenguinCard (
+    imageResourceId: Int,
+    textResourceId: String,
+    onItemClick: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    Card(
+        elevation = CardDefaults.cardElevation(4.dp),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner_radius)),
+        onClick = onItemClick
+    ) {
+        Row(
+            modifier = modifier
+                .fillMaxWidth()
+                .size(dimensionResource(R.dimen.card_image_height))
+        ) {
+            PenguinImage(
+                penguinImage = imageResourceId,
+                modifier = modifier
+                    .weight(.8f)
+            )
+            Text(
+                text = textResourceId,
+                style = MaterialTheme.typography.titleLarge,
+                modifier = modifier.fillMaxWidth()
+                        .padding(vertical = 36.dp, horizontal = 26.dp)
+                        .weight(2.5f)
+            )
+        }
+    }
 }
 
 
