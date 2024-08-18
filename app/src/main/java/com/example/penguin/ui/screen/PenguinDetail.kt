@@ -67,7 +67,7 @@ fun PenguinDetail(
             }
         },
         label = "cardHeight"
-    ) { if (it) 0.dp - 0.dp else -(0.dp - 700.dp)}
+    ) { if (it) 0.dp - 0.dp else -(0.dp - 520.dp)}
 
     Box(modifier = modifier){
         Column {

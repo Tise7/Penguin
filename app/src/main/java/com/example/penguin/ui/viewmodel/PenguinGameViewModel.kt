@@ -47,7 +47,7 @@ class PenguinGameViewModel : ViewModel() {
     private fun triggerClickEffect() {
         _uiState.value = _uiState.value.copy(showClickEffect = true)
         viewModelScope.launch {
-            delay(1000)
+            delay(2000)
             _uiState.value = _uiState.value.copy(
                 showClickEffect = false,
                 finalDialogShow = true
